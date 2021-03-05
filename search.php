@@ -14,7 +14,7 @@ get_header();
 				<div class="container">
 					<div class="row">
 
-						<h1><?php esc_html_e( 'Search results for', 'fancy-lab' ); ?>: <?php echo get_search_query(); ?></h1>
+						<h1><?php esc_html_e( 'Search results for', 'bvt' ); ?>: <?php echo get_search_query(); ?></h1>
 
 						<?php 
 
@@ -30,13 +30,13 @@ get_header();
 
 								// We're using numeric page navigation here.
 								the_posts_pagination( array(
-									'prev_text'		=> esc_html__( 'Previous', 'fancy-lab' ),
-									'next_text'		=> esc_html__( 'Next', 'fancy-lab' ),
+									'prev_text'		=> esc_html__( 'Previous', 'bvt' ),
+									'next_text'		=> esc_html__( 'Next', 'bvt' ),
 								));
 								
 							else:
 						?>
-							<p><?php esc_html_e( 'There are no results for your query.', 'fancy-lab' ); ?></p>
+							<p><?php esc_html_e( 'There are no results for your query.', 'bvt' ); ?></p>
 						<?php endif; ?>
 					</div>
 				</div>

@@ -33,7 +33,7 @@ get_header(); ?>
 								$slider_loop->the_post();
 						?>
 						    <li>
-						      <?php the_post_thumbnail( 'fancy-lab-slider', array( 'class' => 'img-fluid' ) ); ?>
+						      <?php the_post_thumbnail( 'bvt-slider', array( 'class' => 'img-fluid' ) ); ?>
 						      <div class="container">
 						      	<div class="slider-details-container">
 						      		<div class="slider-title">
@@ -74,7 +74,7 @@ get_header(); ?>
 							?>
 							<div class="container">
 								<div class="section-title">
-									<h2><?php echo esc_html( get_theme_mod( 'set_popular_title', __( 'Popular products', 'fancy-lab' ) ) ); ?></h2>
+									<h2><?php echo esc_html( get_theme_mod( 'set_popular_title', __( 'Popular products', 'bvt' ) ) ); ?></h2>
 								</div>
 								<?php echo do_shortcode( '[products limit=" ' . esc_attr( $popular_limit ) . ' " columns=" ' . esc_attr( $popular_col ) . ' " orderby="popularity"]' ); ?>
 							</div>
@@ -82,7 +82,7 @@ get_header(); ?>
 						<section class="new-arrivals">
 							<div class="container">
 								<div class="section-title">
-									<h2><?php echo esc_html( get_theme_mod( 'set_new_arrivals_title', __( 'New Arrivals', 'fancy-lab' ) ) ); ?></h2>
+									<h2><?php echo esc_html( get_theme_mod( 'set_new_arrivals_title', __( 'New Arrivals', 'bvt' ) ) ); ?></h2>
 								</div>
 								<?php echo do_shortcode( '[products limit=" ' . esc_attr( $arrivals_limit ) . ' " columns=" ' . esc_attr( $arrivals_col ) . ' " orderby="date"]' ); ?>
 							</div>
@@ -103,7 +103,7 @@ get_header(); ?>
 						<section class="deal-of-the-week">
 							<div class="container">
 								<div class="section-title">
-									<h2><?php echo esc_html( get_theme_mod( 'set_deal_title', __( 'Deal of the Week', 'fancy-lab' ) ) ); ?></h2>
+									<h2><?php echo esc_html( get_theme_mod( 'set_deal_title', __( 'Deal of the Week', 'bvt' ) ) ); ?></h2>
 								</div>
 								<div class="row d-flex align-items-center">
 									<div class="deal-img col-md-6 col-12 ml-auto text-center">
@@ -112,7 +112,7 @@ get_header(); ?>
 									<div class="deal-desc col-md-4 col-12 mr-auto text-center">
 										<?php if( !empty( $sale ) ): ?>
 											<span class="discount">
-												<?php echo esc_html( $discount_percentage ) . esc_html__( '% OFF', 'fancy-lab' ); ?>
+												<?php echo esc_html( $discount_percentage ) . esc_html__( '% OFF', 'bvt' ); ?>
 											</span>
 										<?php endif; ?>
 										<h3>
@@ -135,7 +135,7 @@ get_header(); ?>
 												</span>
 											<?php endif; ?>
 										</div>
-										<a href="<?php echo esc_url( '?add-to-cart=' . $deal ); ?>" class="add-to-cart"><?php esc_html_e( 'Add to Cart', 'fancy-lab' ); ?></a>
+										<a href="<?php echo esc_url( '?add-to-cart=' . $deal ); ?>" class="add-to-cart"><?php esc_html_e( 'Add to Cart', 'bvt' ); ?></a>
 									</div>
 								</div>
 							</div>
@@ -149,7 +149,7 @@ get_header(); ?>
 				<section class="lab-blog">
 					<div class="container">
 						<div class="section-title">
-							<h2><?php echo esc_html( get_theme_mod( 'set_blog_title', __( 'News From Our Blog', 'fancy-lab' ) ) ); ?></h2>
+							<h2><?php echo esc_html( get_theme_mod( 'set_blog_title', __( 'News From Our Blog', 'bvt' ) ) ); ?></h2>
 						</div>						
 						<div class="row">
 							<?php 
@@ -172,7 +172,7 @@ get_header(); ?>
 												<a href="<?php the_permalink(); ?>">
 													<?php 
 														if( has_post_thumbnail() ):
-															the_post_thumbnail( 'fancy-lab-blog', array( 'class' => 'img-fluid' ) );
+															the_post_thumbnail( 'bvt-blog', array( 'class' => 'img-fluid' ) );
 														endif;
 													?>
 												</a>
@@ -189,7 +189,7 @@ get_header(); ?>
 									wp_reset_postdata();
 								else:
 							?>
-								<p><?php esc_html_e( 'Nothing to display.', 'fancy-lab' ); ?></p>
+								<p><?php esc_html_e( 'Nothing to display.', 'bvt' ); ?></p>
 							<?php endif; ?>
 						</div>
 					</div>

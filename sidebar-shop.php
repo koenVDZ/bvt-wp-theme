@@ -6,6 +6,6 @@
  */
 ?>
 
-<?php if( is_active_sidebar( 'fancy-lab-sidebar-shop' ) ): ?>
-	<?php dynamic_sidebar( 'fancy-lab-sidebar-shop' ); ?>
+<?php if( is_active_sidebar( 'bvt-sidebar-shop' ) ): ?>
+	<?php dynamic_sidebar( 'bvt-sidebar-shop' ); ?>
 <?php endif;

@@ -30,13 +30,13 @@ get_header();
 
 								// We're using numeric page navigation here.
 								the_posts_pagination( array(
-									'prev_text'		=> esc_html__( 'Previous', 'fancy-lab' ),
-									'next_text'		=> esc_html__( 'Next', 'fancy-lab' ),
+									'prev_text'		=> esc_html__( 'Previous', 'bvt' ),
+									'next_text'		=> esc_html__( 'Next', 'bvt' ),
 								));
 								
 							else:
 						?>
-							<p><?php esc_html_e( 'Nothing to display.', 'fancy-lab' ); ?></p>
+							<p><?php esc_html_e( 'Nothing to display.', 'bvt' ); ?></p>
 						<?php endif; ?>
 						</div>
 						<?php get_sidebar(); ?>

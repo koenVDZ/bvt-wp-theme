@@ -29,10 +29,10 @@ Yes! Fancy Lab is a free theme, and always will be a free theme.
 Currently it doesn't have any pro version. We're working on it.
 
 = Where can I find documentation? =
-You can find it [here](https://fancy-lab.gitbook.io).
+You can find it [here](https://bvt.gitbook.io).
 
 = Do you offer support? =
-Yes. We offer support in the [WordPress.org forums](https://wordpress.org/support/theme/fancy-lab).
+Yes. We offer support in the [WordPress.org forums](https://wordpress.org/support/theme/bvt).
 
 = Where can I find the theme options? =
 All of our options can be found in the Customizer in 'Appearance > Customize'.
@@ -41,7 +41,7 @@ All of our options can be found in the Customizer in 'Appearance > Customize'.
 Yes. Fancy Lab has 5 widget areas which you can add widgets to in Appearance > Widgets.
 
 = How can I make my site look like your screenshot? =
-If you want to replicate the screenshot you see on WordPress.org, follow the instructions available on [our official documentation](https://fancy-lab.gitbook.io).
+If you want to replicate the screenshot you see on WordPress.org, follow the instructions available on [our official documentation](https://bvt.gitbook.io).
 
 
 == Copyright ==

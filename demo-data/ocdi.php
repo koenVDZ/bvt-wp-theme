@@ -7,7 +7,7 @@ function fancy_lab_import_files() {
             'local_import_file'            => trailingslashit( get_template_directory() ) . 'demo-data/demo-content.xml',
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'demo-data/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'demo-data/customizer.dat',
-            'import_notice'                => __( 'This theme works best with WooCommerce installed.', 'fancy-lab' ),
+            'import_notice'                => __( 'This theme works best with WooCommerce installed.', 'bvt' ),
         ),
     );
 }

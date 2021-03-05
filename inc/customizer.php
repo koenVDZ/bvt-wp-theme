@@ -12,8 +12,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 	$wp_customize->add_section(
 		'sec_copyright', array(
-			'title'			=> __( 'Copyright Settings', 'fancy-lab' ),
-			'description'	=> __( 'Copyright Section', 'fancy-lab' )
+			'title'			=> __( 'Copyright Settings', 'bvt' ),
+			'description'	=> __( 'Copyright Section', 'bvt' )
 		)
 	);
 
@@ -28,8 +28,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_copyright', array(
-					'label'			=> __( 'Copyright', 'fancy-lab' ),
-					'description'	=> __( 'Please, add your copyright information here', 'fancy-lab' ),
+					'label'			=> __( 'Copyright', 'bvt' ),
+					'description'	=> __( 'Please, add your copyright information here', 'bvt' ),
 					'section'		=> 'sec_copyright',
 					'type'			=> 'text'
 				)
@@ -40,8 +40,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 	$wp_customize->add_section(
 		'sec_slider', array(
-			'title'			=> __( 'Slider Settings', 'fancy-lab' ),
-			'description'	=> __( 'Slider Section', 'fancy-lab' )
+			'title'			=> __( 'Slider Settings', 'bvt' ),
+			'description'	=> __( 'Slider Section', 'bvt' )
 		)
 	);	
 
@@ -57,8 +57,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_page1', array(
-					'label'			=> __( 'Set slider page 1', 'fancy-lab' ),
-					'description'	=> __( 'Set slider page 1', 'fancy-lab' ),
+					'label'			=> __( 'Set slider page 1', 'bvt' ),
+					'description'	=> __( 'Set slider page 1', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'dropdown-pages'
 				)
@@ -76,8 +76,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_button_text1', array(
-					'label'			=> __( 'Button Text for Page 1', 'fancy-lab' ),
-					'description'	=> __( 'Button Text for Page 1', 'fancy-lab' ),
+					'label'			=> __( 'Button Text for Page 1', 'bvt' ),
+					'description'	=> __( 'Button Text for Page 1', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'text'
 				)
@@ -95,8 +95,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_button_url1', array(
-					'label'			=> __( 'URL for Page 1', 'fancy-lab' ),
-					'description'	=> __( 'URL for Page 1', 'fancy-lab' ),
+					'label'			=> __( 'URL for Page 1', 'bvt' ),
+					'description'	=> __( 'URL for Page 1', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'url'
 				)
@@ -116,8 +116,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_page2', array(
-					'label'			=> __( 'Set slider page 2', 'fancy-lab' ),
-					'description'	=> __( 'Set slider page 2', 'fancy-lab' ),
+					'label'			=> __( 'Set slider page 2', 'bvt' ),
+					'description'	=> __( 'Set slider page 2', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'dropdown-pages'
 				)
@@ -135,8 +135,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_button_text2', array(
-					'label'			=> __( 'Button Text for Page 2', 'fancy-lab' ),
-					'description'	=> __( 'Button Text for Page 2', 'fancy-lab' ),
+					'label'			=> __( 'Button Text for Page 2', 'bvt' ),
+					'description'	=> __( 'Button Text for Page 2', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'text'
 				)
@@ -154,8 +154,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_button_url2', array(
-					'label'			=> __( 'URL for Page 2', 'fancy-lab' ),
-					'description'	=> __( 'URL for Page 2', 'fancy-lab' ),
+					'label'			=> __( 'URL for Page 2', 'bvt' ),
+					'description'	=> __( 'URL for Page 2', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'url'
 				)
@@ -175,8 +175,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_page3', array(
-					'label'			=> __( 'Set slider page 3', 'fancy-lab' ),
-					'description'	=> __( 'Set slider page 3', 'fancy-lab' ),
+					'label'			=> __( 'Set slider page 3', 'bvt' ),
+					'description'	=> __( 'Set slider page 3', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'dropdown-pages'
 				)
@@ -194,8 +194,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_button_text3', array(
-					'label'			=> __( 'Button Text for Page 3', 'fancy-lab' ),
-					'description'	=> __( 'Button Text for Page 3', 'fancy-lab' ),
+					'label'			=> __( 'Button Text for Page 3', 'bvt' ),
+					'description'	=> __( 'Button Text for Page 3', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'text'
 				)
@@ -213,8 +213,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_slider_button_url3', array(
-					'label'			=> __( 'URL for Page 3', 'fancy-lab' ),
-					'description'	=> __( 'URL for Page 3', 'fancy-lab' ),
+					'label'			=> __( 'URL for Page 3', 'bvt' ),
+					'description'	=> __( 'URL for Page 3', 'bvt' ),
 					'section'		=> 'sec_slider',
 					'type'			=> 'url'
 				)
@@ -225,8 +225,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 	$wp_customize->add_section(
 		'sec_home_page', array(
-			'title'			=> __( 'Home Page Products and Blog Settings', 'fancy-lab' ),
-			'description'	=> __( 'Home Page Section', 'fancy-lab' )
+			'title'			=> __( 'Home Page Products and Blog Settings', 'bvt' ),
+			'description'	=> __( 'Home Page Section', 'bvt' )
 		)
 	);	
 
@@ -244,8 +244,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_popular_title', array(
-					'label' 		=> __( 'Popular Products Title', 'fancy-lab' ),
-					'description' 	=> __( 'Popular Products Title', 'fancy-lab' ),
+					'label' 		=> __( 'Popular Products Title', 'bvt' ),
+					'description' 	=> __( 'Popular Products Title', 'bvt' ),
 					'section' 		=> 'sec_home_page',
 					'type' 			=> 'text'
 				)
@@ -262,8 +262,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_popular_max_num', array(
-					'label'			=> __( 'Popular Products Max Number', 'fancy-lab' ),
-					'description'	=> __( 'Popular Products Max Number', 'fancy-lab' ),
+					'label'			=> __( 'Popular Products Max Number', 'bvt' ),
+					'description'	=> __( 'Popular Products Max Number', 'bvt' ),
 					'section'		=> 'sec_home_page',
 					'type'			=> 'number'
 				)
@@ -280,8 +280,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_popular_max_col', array(
-					'label'			=> __( 'Popular Products Max Columns', 'fancy-lab' ),
-					'description'	=> __( 'Popular Products Max Columns', 'fancy-lab' ),
+					'label'			=> __( 'Popular Products Max Columns', 'bvt' ),
+					'description'	=> __( 'Popular Products Max Columns', 'bvt' ),
 					'section'		=> 'sec_home_page',
 					'type'			=> 'number'
 				)
@@ -300,8 +300,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_new_arrivals_title', array(
-					'label' 		=> __( 'New Arrivals Title', 'fancy-lab' ),
-					'description' 	=> __( 'New Arrivals Title', 'fancy-lab' ),
+					'label' 		=> __( 'New Arrivals Title', 'bvt' ),
+					'description' 	=> __( 'New Arrivals Title', 'bvt' ),
 					'section' 		=> 'sec_home_page',
 					'type' 			=> 'text'
 				)
@@ -318,8 +318,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_new_arrivals_max_num', array(
-					'label'			=> __( 'New Arrivals Max Number', 'fancy-lab' ),
-					'description'	=> __( 'New Arrivals Max Number', 'fancy-lab' ),
+					'label'			=> __( 'New Arrivals Max Number', 'bvt' ),
+					'description'	=> __( 'New Arrivals Max Number', 'bvt' ),
 					'section'		=> 'sec_home_page',
 					'type'			=> 'number'
 				)
@@ -336,8 +336,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_new_arrivals_max_col', array(
-					'label'			=> __( 'New Arrivals Max Columns', 'fancy-lab' ),
-					'description'	=> __( 'New Arrivals Max Columns', 'fancy-lab' ),
+					'label'			=> __( 'New Arrivals Max Columns', 'bvt' ),
+					'description'	=> __( 'New Arrivals Max Columns', 'bvt' ),
 					'section'		=> 'sec_home_page',
 					'type'			=> 'number'
 				)
@@ -356,8 +356,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_deal_title', array(
-					'label' 		=> __( 'Deal of the Week Title', 'fancy-lab' ),
-					'description' 	=> __( 'Deal of the Week Title', 'fancy-lab' ),
+					'label' 		=> __( 'Deal of the Week Title', 'bvt' ),
+					'description' 	=> __( 'Deal of the Week Title', 'bvt' ),
 					'section' 		=> 'sec_home_page',
 					'type' 			=> 'text'
 				)
@@ -374,7 +374,7 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_deal_show', array(
-					'label'			=> __( 'Show Deal of the Week?', 'fancy-lab' ),
+					'label'			=> __( 'Show Deal of the Week?', 'bvt' ),
 					'section'		=> 'sec_home_page',
 					'type'			=> 'checkbox'
 				)
@@ -391,8 +391,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_deal', array(
-					'label'			=> __( 'Deal of the Week Product ID', 'fancy-lab' ),
-					'description'	=> __( 'Product ID to Display', 'fancy-lab' ),
+					'label'			=> __( 'Deal of the Week Product ID', 'bvt' ),
+					'description'	=> __( 'Product ID to Display', 'bvt' ),
 					'section'		=> 'sec_home_page',
 					'type'			=> 'number'
 				)
@@ -412,8 +412,8 @@ function fancy_lab_customizer( $wp_customize ){
 
 			$wp_customize->add_control(
 				'set_blog_title', array(
-					'label' 		=> __( 'Blog Section Title', 'fancy-lab' ),
-					'description' 	=> __( 'Blog Section Title', 'fancy-lab' ),
+					'label' 		=> __( 'Blog Section Title', 'bvt' ),
+					'description' 	=> __( 'Blog Section Title', 'bvt' ),
 					'section' 		=> 'sec_home_page',
 					'type' 			=> 'text'
 				)

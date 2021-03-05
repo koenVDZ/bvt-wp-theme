@@ -35,7 +35,7 @@ function fancy_lab_scripts(){
  	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '4.3.1', 'all' );
 
  	// Theme's main stylesheet
- 	wp_enqueue_style( 'fancy-lab-style', get_stylesheet_uri(), array(), '1.0', 'all' );
+ 	wp_enqueue_style( 'bvt-style', get_stylesheet_uri(), array(), '1.0', 'all' );
 
  	// Google Fonts
  	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Rajdhani:400,500,600,700|Seaweed+Script' );
@@ -63,8 +63,8 @@ function fancy_lab_config(){
 		// This theme uses wp_nav_menu() in two locations.
 		register_nav_menus(
 			array(
-				'fancy_lab_main_menu' 	=> esc_html__( 'Fancy Lab Main Menu', 'fancy-lab' ),
-				'fancy_lab_footer_menu' => esc_html__( 'Fancy Lab Footer Menu', 'fancy-lab' ),
+				'fancy_lab_main_menu' 	=> esc_html__( 'Fancy Lab Main Menu', 'bvt' ),
+				'fancy_lab_footer_menu' => esc_html__( 'Fancy Lab Footer Menu', 'bvt' ),
 			)
 		);
 
@@ -72,9 +72,9 @@ function fancy_lab_config(){
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
 		 * If you're building a theme based on Fancy Lab, use a find and replace
-		 * to change 'fancy-lab' to the name of your theme in all the template files.
+		 * to change 'bvt' to the name of your theme in all the template files.
 		 */
-		$textdomain = 'fancy-lab';
+		$textdomain = 'bvt';
 		load_theme_textdomain( $textdomain, get_stylesheet_directory() . '/languages/' );
 		load_theme_textdomain( $textdomain, get_template_directory() . '/languages/' );
 
@@ -111,8 +111,8 @@ function fancy_lab_config(){
 		) );
 
 		add_theme_support( 'post-thumbnails' );
-		add_image_size( 'fancy-lab-slider', 1920, 800, array( 'center', 'center' ) );
-		add_image_size( 'fancy-lab-blog', 960, 640, array( 'center', 'center' ) );
+		add_image_size( 'bvt-slider', 1920, 800, array( 'center', 'center' ) );
+		add_image_size( 'bvt-blog', 960, 640, array( 'center', 'center' ) );
 
 		if ( ! isset( $content_width ) ) {
 			$content_width = 600;
@@ -156,45 +156,45 @@ function fancy_lab_woocommerce_header_add_to_cart_fragment( $fragments ) {
 add_action( 'widgets_init', 'fancy_lab_sidebars' );
 function fancy_lab_sidebars(){
 	register_sidebar( array(
-		'name'			=> esc_html__( 'Fancy Lab Main Sidebar', 'fancy-lab' ),
-		'id'			=> 'fancy-lab-sidebar-1',
-		'description'	=> esc_html__( 'Drag and drop your widgets here', 'fancy-lab' ),
+		'name'			=> esc_html__( 'Fancy Lab Main Sidebar', 'bvt' ),
+		'id'			=> 'bvt-sidebar-1',
+		'description'	=> esc_html__( 'Drag and drop your widgets here', 'bvt' ),
 		'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper">', 
 		'after_widget'	=> '</div>',
 		'before_title'	=> '<h4 class="widget-title">',
 		'after_title'	=> '</h4>',
 	) );
 	register_sidebar( array(
-		'name'			=> esc_html__( 'Sidebar Shop', 'fancy-lab' ),
-		'id'			=> 'fancy-lab-sidebar-shop',
-		'description'	=> esc_html__( 'Drag and drop your WooCommerce widgets here', 'fancy-lab' ),
+		'name'			=> esc_html__( 'Sidebar Shop', 'bvt' ),
+		'id'			=> 'bvt-sidebar-shop',
+		'description'	=> esc_html__( 'Drag and drop your WooCommerce widgets here', 'bvt' ),
 		'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper">', 
 		'after_widget'	=> '</div>',
 		'before_title'	=> '<h4 class="widget-title">',
 		'after_title'	=> '</h4>',
 	) );	
 	register_sidebar( array(
-		'name'			=> esc_html__( 'Footer Sidebar 1', 'fancy-lab' ),
-		'id'			=> 'fancy-lab-sidebar-footer1',
-		'description'	=> esc_html__( 'Drag and drop your widgets here', 'fancy-lab' ),
+		'name'			=> esc_html__( 'Footer Sidebar 1', 'bvt' ),
+		'id'			=> 'bvt-sidebar-footer1',
+		'description'	=> esc_html__( 'Drag and drop your widgets here', 'bvt' ),
 		'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper">', 
 		'after_widget'	=> '</div>',
 		'before_title'	=> '<h4 class="widget-title">',
 		'after_title'	=> '</h4>',
 	) );
 	register_sidebar( array(
-		'name'			=> esc_html__( 'Footer Sidebar 2', 'fancy-lab' ),
-		'id'			=> 'fancy-lab-sidebar-footer2',
-		'description'	=> esc_html__( 'Drag and drop your widgets here', 'fancy-lab' ),
+		'name'			=> esc_html__( 'Footer Sidebar 2', 'bvt' ),
+		'id'			=> 'bvt-sidebar-footer2',
+		'description'	=> esc_html__( 'Drag and drop your widgets here', 'bvt' ),
 		'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper">', 
 		'after_widget'	=> '</div>',
 		'before_title'	=> '<h4 class="widget-title">',
 		'after_title'	=> '</h4>',
 	) );
 	register_sidebar( array(
-		'name'			=> esc_html__( 'Footer Sidebar 3', 'fancy-lab' ),
-		'id'			=> 'fancy-lab-sidebar-footer3',
-		'description'	=> esc_html__( 'Drag and drop your widgets here', 'fancy-lab' ),
+		'name'			=> esc_html__( 'Footer Sidebar 3', 'bvt' ),
+		'id'			=> 'bvt-sidebar-footer3',
+		'description'	=> esc_html__( 'Drag and drop your widgets here', 'bvt' ),
 		'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper">', 
 		'after_widget'	=> '</div>',
 		'before_title'	=> '<h4 class="widget-title">',
@@ -208,15 +208,15 @@ function fancy_lab_sidebars(){
 function fancy_lab_body_classes( $classes ) {
 
 	// Adds a class of no-sidebar to sites without active sidebar.
-	if ( ! is_active_sidebar( 'fancy-lab-sidebar-1' ) ) {
+	if ( ! is_active_sidebar( 'bvt-sidebar-1' ) ) {
 		$classes[] = 'no-sidebar';
 	}
 
-	if ( ! is_active_sidebar( 'fancy-lab-sidebar-shop' ) ) {
+	if ( ! is_active_sidebar( 'bvt-sidebar-shop' ) ) {
 		$classes[] = 'no-sidebar-shop';
 	}
 
-	if ( ! is_active_sidebar( 'fancy-lab-sidebar-footer1' ) && ! is_active_sidebar( 'fancy-lab-sidebar-footer2' ) && ! is_active_sidebar( 'fancy-lab-sidebar-footer3' ) ) {
+	if ( ! is_active_sidebar( 'bvt-sidebar-footer1' ) && ! is_active_sidebar( 'bvt-sidebar-footer2' ) && ! is_active_sidebar( 'bvt-sidebar-footer3' ) ) {
 		$classes[] = 'no-sidebar-footer';
 	}
 

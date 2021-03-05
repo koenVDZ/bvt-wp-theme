@@ -26,7 +26,7 @@ if ( post_password_required() ) {
 				$comments_number = get_comments_number();
 				if ( '1' === $comments_number ) {
 					/* translators: %s: post title */
-					printf( esc_html_x( 'One thought on &ldquo;%s&rdquo;', 'comments title', 'fancy-lab' ), esc_html( get_the_title() ) );
+					printf( esc_html_x( 'One thought on &ldquo;%s&rdquo;', 'comments title', 'bvt' ), esc_html( get_the_title() ) );
 				} else {
 					printf(
 						esc_html(
@@ -36,7 +36,7 @@ if ( post_password_required() ) {
 							'%1$s thoughts on &ldquo;%2$s&rdquo;',
 							$comments_number,
 							'comments title',
-							'fancy-lab'
+							'bvt'
 							)
 						),
 						esc_html( number_format_i18n( $comments_number ) ),
@@ -66,7 +66,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
 	?>
-		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'fancy-lab' ); ?></p>
+		<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'bvt' ); ?></p>
 	<?php endif; ?>
 
 	<?php

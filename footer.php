@@ -14,19 +14,19 @@
 			<section class="footer-widgets">
 				<div class="container">
 					<div class="row">
-						<?php if( is_active_sidebar( 'fancy-lab-sidebar-footer1' ) ): ?>
+						<?php if( is_active_sidebar( 'bvt-sidebar-footer1' ) ): ?>
 							<div class="col-md-4 col-12">
-								<?php dynamic_sidebar( 'fancy-lab-sidebar-footer1' ); ?>
+								<?php dynamic_sidebar( 'bvt-sidebar-footer1' ); ?>
 							</div>
 						<?php endif; ?>
-						<?php if( is_active_sidebar( 'fancy-lab-sidebar-footer2' ) ): ?>
+						<?php if( is_active_sidebar( 'bvt-sidebar-footer2' ) ): ?>
 							<div class="col-md-4 col-12">
-								<?php dynamic_sidebar( 'fancy-lab-sidebar-footer2' ); ?>
+								<?php dynamic_sidebar( 'bvt-sidebar-footer2' ); ?>
 							</div>
 						<?php endif; ?>	
-						<?php if( is_active_sidebar( 'fancy-lab-sidebar-footer3' ) ): ?>
+						<?php if( is_active_sidebar( 'bvt-sidebar-footer3' ) ): ?>
 							<div class="col-md-4 col-12">
-								<?php dynamic_sidebar( 'fancy-lab-sidebar-footer3' ); ?>
+								<?php dynamic_sidebar( 'bvt-sidebar-footer3' ); ?>
 							</div>
 						<?php endif; ?>											
 					</div>
@@ -36,7 +36,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="copyright-text col-12 col-md-6">
-							<p><?php echo esc_html( get_theme_mod( 'set_copyright', __( 'Copyright X - All Rights Reserved', 'fancy-lab' ) ) ); ?></p>
+							<p><?php echo esc_html( get_theme_mod( 'set_copyright', __( 'Copyright X - All Rights Reserved', 'bvt' ) ) ); ?></p>
 						</div>
 						<nav class="footer-menu col-12 col-md-6 text-left text-md-right">
 							<?php 
