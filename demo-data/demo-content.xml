@@ -26,7 +26,7 @@
 >
 
 <channel>
-	<title>Fancy Lab</title>
+	<title>Brazil Virtual Tour</title>
 	<link>https://www.inbrackets.dev/bvt-theme</link>
 	<description>Just another WordPress site</description>
 	<pubDate>Tue, 09 Jul 2019 21:56:03 +0000</pubDate>
@@ -466,9 +466,9 @@
 			<wp:meta_value><![CDATA[3]]></wp:meta_value>
 		</wp:termmeta>
 	</wp:term>
-			<wp:term><wp:term_id>36</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[bvt-footer-menu]]></wp:term_slug><wp:term_name><![CDATA[Fancy Lab Footer Menu]]></wp:term_name>
+			<wp:term><wp:term_id>36</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[bvt-footer-menu]]></wp:term_slug><wp:term_name><![CDATA[Brazil Virtual Tour Footer Menu]]></wp:term_name>
 </wp:term>
-	<wp:term><wp:term_id>37</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[bvt-main-menu]]></wp:term_slug><wp:term_name><![CDATA[Fancy Lab Main Menu]]></wp:term_name>
+	<wp:term><wp:term_id>37</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[bvt-main-menu]]></wp:term_slug><wp:term_name><![CDATA[Brazil Virtual Tour Main Menu]]></wp:term_name>
 </wp:term>
 	<wp:term><wp:term_id>38</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[widget-menu]]></wp:term_slug><wp:term_name><![CDATA[Widget Menu]]></wp:term_name>
 </wp:term>
@@ -476,13 +476,13 @@
 	<generator>https://wordpress.org/?v=5.2.2</generator>
 
 		<item>
-		<title>Fancy Lab WordPress Theme by In Brackets</title>
+		<title>Brazil Virtual Tour WordPress Theme by In Brackets</title>
 		<link>https://www.inbrackets.dev/bvt-theme/bvt-logo/</link>
 		<pubDate>Sun, 10 Mar 2019 22:32:43 +0000</pubDate>
 		<dc:creator><![CDATA[marcelo]]></dc:creator>
 		<guid isPermaLink="false">http://www.inbrackets.dev/bvt-theme/wp-content/uploads/2019/03/bvt-logo.png</guid>
 		<description></description>
-		<content:encoded><![CDATA[Fancy Lab WordPress Theme by In Brackets]]></content:encoded>
+		<content:encoded><![CDATA[Brazil Virtual Tour WordPress Theme by In Brackets]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1941</wp:post_id>
 		<wp:post_date><![CDATA[2019-03-10 22:32:43]]></wp:post_date>
@@ -507,7 +507,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Fancy Lab WordPress Theme by In Brackets]]></wp:meta_value>
+		<wp:meta_value><![CDATA[Brazil Virtual Tour WordPress Theme by In Brackets]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1196,7 +1196,7 @@
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Fancy Lab Main Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Brazil Virtual Tour Main Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -1251,7 +1251,7 @@
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Fancy Lab Main Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Brazil Virtual Tour Main Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -1306,7 +1306,7 @@
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Fancy Lab Main Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Brazil Virtual Tour Main Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -1361,7 +1361,7 @@
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Fancy Lab Main Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Brazil Virtual Tour Main Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -1416,7 +1416,7 @@
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Fancy Lab Main Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Brazil Virtual Tour Main Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -2160,7 +2160,7 @@ United States</address>]]></content:encoded>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Fancy Lab Main Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Brazil Virtual Tour Main Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -2215,7 +2215,7 @@ United States</address>]]></content:encoded>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Fancy Lab Footer Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Brazil Virtual Tour Footer Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -2270,7 +2270,7 @@ United States</address>]]></content:encoded>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Fancy Lab Footer Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Brazil Virtual Tour Footer Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -2325,7 +2325,7 @@ United States</address>]]></content:encoded>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Fancy Lab Footer Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Brazil Virtual Tour Footer Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -2380,7 +2380,7 @@ United States</address>]]></content:encoded>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Fancy Lab Footer Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Brazil Virtual Tour Footer Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -2655,7 +2655,7 @@ United States</address>]]></content:encoded>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Fancy Lab Main Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Brazil Virtual Tour Main Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
@@ -2710,7 +2710,7 @@ United States</address>]]></content:encoded>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Fancy Lab Main Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-main-menu"><![CDATA[Brazil Virtual Tour Main Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
@@ -2765,7 +2765,7 @@ United States</address>]]></content:encoded>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Fancy Lab Footer Menu]]></category>
+										<category domain="nav_menu" nicename="bvt-footer-menu"><![CDATA[Brazil Virtual Tour Footer Menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>

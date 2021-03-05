@@ -1,8 +1,8 @@
-# Copyright 2019 Fancy Lab Theme
+# Copyright 2019 Brazil Virtual Tour Theme
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Fancy Lab v1.0.0\n"
+"Project-Id-Version: Brazil Virtual Tour v1.0.0\n"
 "POT-Creation-Date: 2019-06-26 16:03-0300\n"
 "PO-Revision-Date: \n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 2.0.6\n"
-"Last-Translator: Marcelo Vieira <marceloquinze@gmail.com>\n"
+"Last-Translator: Koenraad Vandezande <koen@rioguides.biz>\n"
 "Language: pt_BR\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -67,16 +67,16 @@ msgid "Copyright X - All Rights Reserved"
 msgstr "Copyright X - Todos os direitos reservados"
 
 #: functions.php:50
-msgid "Fancy Lab Main Menu"
-msgstr "Menu principal do Fancy Lab"
+msgid "Brazil Virtual Tour Main Menu"
+msgstr "Menu principal do Brazil Virtual Tour"
 
 #: functions.php:51
-msgid "Fancy Lab Footer Menu"
-msgstr "Menu rodapé do Fancy Lab"
+msgid "Brazil Virtual Tour Footer Menu"
+msgstr "Menu rodapé do Brazil Virtual Tour"
 
 #: functions.php:140
-msgid "Fancy Lab Main Sidebar"
-msgstr "Barra Lateral Principal do Fancy Lab"
+msgid "Brazil Virtual Tour Main Sidebar"
+msgstr "Barra Lateral Principal do Brazil Virtual Tour"
 
 #: functions.php:142 functions.php:160 functions.php:169 functions.php:178
 msgid "Drag and drop your widgets here"

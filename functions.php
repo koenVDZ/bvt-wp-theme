@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Fancy Lab functions and definitions
+ * Brazil Virtual Tour functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Fancy Lab
+ * @package Brazil Virtual Tour
  */
 
 /**
@@ -63,15 +63,15 @@ function fancy_lab_config(){
 		// This theme uses wp_nav_menu() in two locations.
 		register_nav_menus(
 			array(
-				'fancy_lab_main_menu' 	=> esc_html__( 'Fancy Lab Main Menu', 'bvt' ),
-				'fancy_lab_footer_menu' => esc_html__( 'Fancy Lab Footer Menu', 'bvt' ),
+				'fancy_lab_main_menu' 	=> esc_html__( 'Brazil Virtual Tour Main Menu', 'bvt' ),
+				'fancy_lab_footer_menu' => esc_html__( 'Brazil Virtual Tour Footer Menu', 'bvt' ),
 			)
 		);
 
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on Fancy Lab, use a find and replace
+		 * If you're building a theme based on Brazil Virtual Tour, use a find and replace
 		 * to change 'bvt' to the name of your theme in all the template files.
 		 */
 		$textdomain = 'bvt';
@@ -156,7 +156,7 @@ function fancy_lab_woocommerce_header_add_to_cart_fragment( $fragments ) {
 add_action( 'widgets_init', 'fancy_lab_sidebars' );
 function fancy_lab_sidebars(){
 	register_sidebar( array(
-		'name'			=> esc_html__( 'Fancy Lab Main Sidebar', 'bvt' ),
+		'name'			=> esc_html__( 'Brazil Virtual Tour Main Sidebar', 'bvt' ),
 		'id'			=> 'bvt-sidebar-1',
 		'description'	=> esc_html__( 'Drag and drop your widgets here', 'bvt' ),
 		'before_widget'	=> '<div id="%1$s" class="widget %2$s widget-wrapper">', 

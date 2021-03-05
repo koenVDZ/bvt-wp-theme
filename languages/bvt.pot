@@ -1,9 +1,9 @@
-# Copyright 2019 Fancy Lab Theme
+# Copyright 2019 Brazil Virtual Tour Theme
 # This file is distributed under the GNU General Public License v3 or later.
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Fancy Lab v1.0.0\n"
+"Project-Id-Version: Brazil Virtual Tour v1.0.0\n"
 "POT-Creation-Date: 2019-07-11 18:37-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your Name <you@example.com>\n"
@@ -73,15 +73,15 @@ msgid "Copyright X - All Rights Reserved"
 msgstr ""
 
 #: functions.php:66
-msgid "Fancy Lab Main Menu"
+msgid "Brazil Virtual Tour Main Menu"
 msgstr ""
 
 #: functions.php:67
-msgid "Fancy Lab Footer Menu"
+msgid "Brazil Virtual Tour Footer Menu"
 msgstr ""
 
 #: functions.php:159
-msgid "Fancy Lab Main Sidebar"
+msgid "Brazil Virtual Tour Main Sidebar"
 msgstr ""
 
 #: functions.php:161 functions.php:179 functions.php:188 functions.php:197

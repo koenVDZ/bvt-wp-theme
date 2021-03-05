@@ -3,7 +3,7 @@
 function fancy_lab_import_files() {
     return array(
         array(
-            'import_file_name'             => 'Fancy Lab',
+            'import_file_name'             => 'Brazil Virtual Tour',
             'local_import_file'            => trailingslashit( get_template_directory() ) . 'demo-data/demo-content.xml',
             'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'demo-data/widgets.wie',
             'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'demo-data/customizer.dat',
@@ -15,8 +15,8 @@ add_filter( 'pt-ocdi/import_files', 'fancy_lab_import_files' );
 
 function fancy_lab_after_import_setup() {
     // Assign menus to their locations.
-    $main_menu = get_term_by( 'name', 'Fancy Lab Main Menu', 'nav_menu' );
-    $footer_menu = get_term_by( 'name', 'Fancy Lab Footer Menu', 'nav_menu' );
+    $main_menu = get_term_by( 'name', 'Brazil Virtual Tour Main Menu', 'nav_menu' );
+    $footer_menu = get_term_by( 'name', 'Brazil Virtual Tour Footer Menu', 'nav_menu' );
 
     set_theme_mod( 'nav_menu_locations', array(
             'fancy_lab_main_menu' => $main_menu->term_id,

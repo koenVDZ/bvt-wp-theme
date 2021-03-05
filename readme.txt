@@ -1,4 +1,4 @@
-=== Fancy Lab ===
+=== Brazil Virtual Tour ===
 Contributors: inbrackets
 Requires at least: WordPress 4.9
 Requires PHP: 7.0
@@ -11,21 +11,21 @@ Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, the
 
 == Description ==
 
-Fancy Lab is a compatible WooCommerce theme made with WordPress. It is the best theme for you to sell anything online, beautifuly designed and fully responsive.
+Brazil Virtual Tour is a compatible WooCommerce theme made with WordPress. It is the best theme for you to sell anything online, beautifuly designed and fully responsive.
 This theme is fully responsible, has a blog and is compatible with WooCommerce. 
 
 == Installation ==
 
 1. From the admin panel, go to Appearance > Themes and click the Add New button.
-2. Search for "Fancy Lab"
+2. Search for "Brazil Virtual Tour"
 3. Install and activate
 
 == Frequently Asked Questions ==
 
-= Is Fancy Lab Free? =
-Yes! Fancy Lab is a free theme, and always will be a free theme.
+= Is Brazil Virtual Tour Free? =
+Yes! Brazil Virtual Tour is a free theme, and always will be a free theme.
 
-= Does Fancy Lab have a pro version? =
+= Does Brazil Virtual Tour have a pro version? =
 Currently it doesn't have any pro version. We're working on it.
 
 = Where can I find documentation? =
@@ -38,7 +38,7 @@ Yes. We offer support in the [WordPress.org forums](https://wordpress.org/suppor
 All of our options can be found in the Customizer in 'Appearance > Customize'.
 
 = Does this theme have any widget areas? =
-Yes. Fancy Lab has 5 widget areas which you can add widgets to in Appearance > Widgets.
+Yes. Brazil Virtual Tour has 5 widget areas which you can add widgets to in Appearance > Widgets.
 
 = How can I make my site look like your screenshot? =
 If you want to replicate the screenshot you see on WordPress.org, follow the instructions available on [our official documentation](https://bvt.gitbook.io).
@@ -46,8 +46,8 @@ If you want to replicate the screenshot you see on WordPress.org, follow the ins
 
 == Copyright ==
 
-Fancy Lab WordPress Theme, Copyright 2019 inbrackets.dev
-Fancy Lab is distributed under the terms of the GNU GPL
+Brazil Virtual Tour WordPress Theme, Copyright 2019 inbrackets.dev
+Brazil Virtual Tour is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -66,7 +66,7 @@ GNU General Public License for more details.
 
 == Credits ==
 
-Fancy Lab bundles the following third-party resources:
+Brazil Virtual Tour bundles the following third-party resources:
 
 * Bootstrap v4.3.1 (https://getbootstrap.com/), Copyright 2011-2019 The Bootstrap Authors, Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 

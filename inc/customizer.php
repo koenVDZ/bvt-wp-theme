@@ -3,7 +3,7 @@
 /**
  * Fany Lab Theme Customizer
  *
- * @package Fancy Lab
+ * @package Brazil Virtual Tour
  */
 
 function fancy_lab_customizer( $wp_customize ){

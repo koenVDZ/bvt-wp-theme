@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package Fancy Lab
+ * @package Brazil Virtual Tour
  */
 
 get_header();

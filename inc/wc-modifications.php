@@ -4,7 +4,7 @@
  *
  * @link https://docs.woocommerce.com/document/woocommerce-theme-developer-handbook/#section-3
  *
- * @package Fancy Lab
+ * @package Brazil Virtual Tour
  */
 
 function fancy_lab_wc_modify(){

@@ -1,8 +1,8 @@
 <?php
 /**
- * Template for displaying search forms in Fancy Lab
+ * Template for displaying search forms in Brazil Virtual Tour
  *
- * @package Fancy Lab
+ * @package Brazil Virtual Tour
  */
 ?>
 

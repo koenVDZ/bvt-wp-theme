@@ -2,7 +2,7 @@
 /**
  * The template for the sidebar containing the shop widget area
  *
- * @package Fancy Lab
+ * @package Brazil Virtual Tour
  */
 ?>
 
